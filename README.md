@@ -6,17 +6,6 @@
 
 
 <div style="text-align: center;">
-
-[//]: # (  <span style="display: inline-block;">)
-
-[//]: # (    <a href="https://example.com/paper.pdf" target='_blank'>)
-
-[//]: # (      <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-slategray">)
-
-[//]: # (    </a>)
-
-[//]: # (  </span>)
-
   <span style="display: inline-block;">
     <a href="https://drive.google.com/drive/folders/17qlztnZj_POkljKoBVu3Qccu09rBvYwT?usp=sharing" target='_blank'>
       <img src="https://img.shields.io/badge/LESS-%F0%9F%9B%B0%EF%B8%8F-lightyellow">
@@ -94,7 +83,7 @@ We train and evaluate our code in Python 3.7, CUDA 12.1, Pytorch 2.3.1
 ### Train
 You can download our pretrained weights to reproduce our results,
 and you also can train the LuSeg model on the LunarSeg dataset by running the following command:
-```python
+```bash
 #Stage I
 python train_RGB.py --data_dir /your/path/to/LunarSeg/ --batch_size 4 --gpu_ids 0
 
@@ -103,7 +92,7 @@ python train_TS.py --data_dir /your/path/to/LunarSeg/ --batch_size 4 --gpu_ids 0
 ```
 ### Evaluation
 You can evaluate the LuSeg model on the LunarSeg dataset by running the following command:
-```python
+```bash
 python run_demo_lunar.py --data_dir /your/path/to/LunarSeg/test/ --batch_size 2 --gpu_ids 0 --rgb_dir /your/path/to/LunarSeg/StageI/trained_rgb/weight/ --model_dir /your/path/to/LunarSeg/StageII/trained_ts/weight/
 ```
 
