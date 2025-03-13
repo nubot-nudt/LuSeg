@@ -33,7 +33,7 @@
 - [2025-03] Code released.
 - [2025-02] Submitted IROS 2025.
 
-# 🛰️ 1. Introduction
+# 1. 🛰️Introduction
 This repository introduces the Lunar Exploration Simulator System (LESS), a lunar surface simulation system, alongside the LunarSeg dataset, which supplies RGB-D data for the segmentation of lunar obstacles, 
 including both positive and negative instances. Furthermore, it presents a novel two-stage segmentation network, termed LuSeg.
 
@@ -43,7 +43,7 @@ Our accompanying video is available at **[Demo](https://1drv.ms/v/c/9fa243fc9d63
   <img src="./assets/cover.jpg" alt="Alt text" width="600" height="350">
 </p>
 
-# 🇨🇳 2. Lunar Exploration Simulation System (LESS)
+# 2. 🇨🇳Lunar Exploration Simulation System (LESS)
 ## 2.1 The Overall of Lunar Exploration Simulator System 
 The LESS system integrates a high-fidelity lunar terrain model, a customizable rover platform, and a multi-modal sensor suite, while also supporting the Robot Operating System (ROS) to enable realistic data generation and the validation of autonomous perception algorithms for the rover.ESS provides a scalable platform for developing and validating perception algorithms in extraterrestrial environments. This open-source framework is designed for high extensibility, allowing researchers to integrate additional sensors or customize terrain models according to the specific requirements of their applications.
 <p align="center">
@@ -54,14 +54,14 @@ The LESS system integrates a high-fidelity lunar terrain model, a customizable r
 ## 2.2 Application Examples of LESS
 You can collect multimodal data based on your needs in the LESS system.
 <p align="center">
-  <img src="./assets/Lunar_dataset.gif" alt="Alt text" width="600" height="350">
+  <img src="./assets/Lunar_dataset.gif" alt="Alt text" width="600" height="380">
 </p>
 
 ## 2.3 Installation
 
 To install the LESS on your workstation and learn more about the system, please refer to the [LESS_install](LESS_Install.md).
 
-# 💡3. LuSeg
+# 3.💡LuSeg
 ## 3.1 LuSeg Overview
 LuSeg is a novel two-stage training segmentation
 method that effectively maintains the semantic consistency of multimodal features via our proposed Contrast-Driven Fusion module. Stage I involves single-modal training using only RGB images
