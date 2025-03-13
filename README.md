@@ -5,7 +5,7 @@
 </div>
 
 
-<div style="text-align: center;">
+<p align="center">
   <span style="display: inline-block;">
     <a href="https://drive.google.com/drive/folders/17qlztnZj_POkljKoBVu3Qccu09rBvYwT?usp=sharing" target='_blank'>
       <img src="https://img.shields.io/badge/LESS-%F0%9F%9B%B0%EF%B8%8F-lightyellow">
@@ -23,22 +23,10 @@
       <img src="https://img.shields.io/badge/Video-%F0%9F%8E%AC-pink">
     </a>
   </span>
-</div>
+</p>
 
 
-<center>
-  <a href="https://drive.google.com/drive/folders/17qlztnZj_POkljKoBVu3Qccu09rBvYwT?usp=sharing" target='_blank'>
-    <img src="https://img.shields.io/badge/LESS-%F0%9F%9B%B0%EF%B8%8F-lightyellow">
-  </a>
-  
-  <a href="https://drive.google.com/drive/folders/1u5eHiEPSuPZm1nmjdD4iixaATTorBbI8?usp=sharing" target='_blank'>
-    <img src="https://img.shields.io/badge/Dataset-%F0%9F%93%82-lightblue">
-  </a>
-  
-  <a href="https://1drv.ms/v/c/9fa243fc9d6318bd/ERalIxw2JaRPgX6dHvGNDggB-5JHOughIMZkYQ6CgkrQpQ?e=y4zu7J" target='_blank'>
-    <img src="https://img.shields.io/badge/Video-%F0%9F%8E%AC-pink">
-  </a>
-</center>
+
 
 ## 🔥News:
 
