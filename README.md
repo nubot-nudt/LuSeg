@@ -31,7 +31,7 @@
 ## 🔥News:
 
 - [2025-03] Code released.
-- [2025-02] Submitted IROS 2025.
+- [2025-02] Submitted to IROS 2025.
 
 # 1. 🛰️Introduction
 This repository introduces the Lunar Exploration Simulator System (LESS), a lunar surface simulation system, alongside the LunarSeg dataset, which supplies RGB-D data for the segmentation of lunar obstacles, 
@@ -42,6 +42,20 @@ Our accompanying video is available at **[Demo](https://1drv.ms/v/c/9fa243fc9d63
 <p align="center">
   <img src="./assets/cover.jpg" alt="Alt text" width="600" height="350">
 </p>
+
+## Citation
+
+Please cite the corresponding paper:
+**TODO**
+```bibtex
+@article{x,
+	title={x},
+	author={x},
+	year={2025},
+	journal={arXiv preprint arXiv:xxx.0xx}, 
+}
+```
+
 
 # 2. 🇨🇳Lunar Exploration Simulation System (LESS)
 ## 2.1 The Overall of Lunar Exploration Simulator System 
