@@ -59,7 +59,7 @@ Please cite the corresponding paper:
 
 # 2. 🇨🇳Lunar Exploration Simulation System (LESS)
 ## 2.1 The Overall of Lunar Exploration Simulator System 
-The LESS system integrates a high-fidelity lunar terrain model, a customizable rover platform, and a multi-modal sensor suite, while also supporting the Robot Operating System (ROS) to enable realistic data generation and the validation of autonomous perception algorithms for the rover.ESS provides a scalable platform for developing and validating perception algorithms in extraterrestrial environments. This open-source framework is designed for high extensibility, allowing researchers to integrate additional sensors or customize terrain models according to the specific requirements of their applications.
+The LESS system integrates a high-fidelity lunar terrain model, a customizable rover platform, and a multi-modal sensor suite, while also supporting the Robot Operating System (ROS) to enable realistic data generation and the validation of autonomous perception algorithms for the rover.LESS provides a scalable platform for developing and validating perception algorithms in extraterrestrial environments. This open-source framework is designed for high extensibility, allowing researchers to integrate additional sensors or customize terrain models according to the specific requirements of their applications.
 <p align="center">
   <img src="./assets/LESS.jpg" alt="Alt text" width="600" height="350">
 </p>
