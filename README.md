@@ -46,13 +46,12 @@ Our accompanying video is available at **[Demo](https://1drv.ms/v/c/9fa243fc9d63
 ## Citation
 
 Please cite the corresponding paper:
-**TODO**
 ```bibtex
-@article{x,
-	title={x},
-	author={x},
-	year={2025},
-	journal={arXiv preprint arXiv:xxx.0xx}, 
+@article{jiao2024luseg,
+  title={LuSeg: Efficient Negative and Positive Obstacles Segmentation via Contrast-Driven Multi-Modal Feature Fusion on the Lunar},
+  author={Shuaifeng Jiao, Zhiwen Zeng, Zhuoqun Su, Xieyuanli Chen, Zongtan Zhou, Huimin Lu},
+  journal={arXiv preprint arXiv:2503.11409},
+  year={2025}
 }
 ```
 
