@@ -7,7 +7,7 @@
 
 <p align="center">
   <span style="display: inline-block;">
-    <a href="https://arxiv.org/abs/2503.11409" target='_blank'>
+    <a href="https://arxiv.org/pdf/2503.11409" target='_blank'>
       <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-slategray">
     </a>
   </span>
