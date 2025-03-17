@@ -3,7 +3,16 @@
 # LuSeg: Efficient Negative and Positive Obstacles Segmentation via Contrast-Driven Multi-Modal Feature Fusion on the Lunar
 
 </div>
-
+<p align="center">
+  <a href="https://github.com/Shuaifeng-Jiao">Shuaifeng Jiao</a>,
+  <a href="https://github.com/Shuaifeng-Jiao">Zhiwen Zeng</a>,
+  <a href="https://github.com/WangYushan9264">Zhuoqun Su</a>,
+  <a href="https://github.com/Chen-Xieyuanli">Xieyuanli Chen</a>
+   Zongtan Zhou<sup>*</sup>,
+  <a href="https://scholar.google.com.hk/citations?hl=en&user=cp-6u7wAAAAJ">Huimin Lu</a>
+ 
+  
+</p>
 
 <p align="center">
   <span style="display: inline-block;">
