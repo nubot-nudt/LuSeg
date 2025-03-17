@@ -7,6 +7,12 @@
 
 <p align="center">
   <span style="display: inline-block;">
+    <a href="https://arxiv.org/abs/2503.11409" target='_blank'>
+      <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-slategray">
+    </a>
+  </span>
+  
+  <span style="display: inline-block;">
     <a href="https://drive.google.com/drive/folders/17qlztnZj_POkljKoBVu3Qccu09rBvYwT?usp=sharing" target='_blank'>
       <img src="https://img.shields.io/badge/LESS-%F0%9F%9B%B0%EF%B8%8F-lightyellow">
     </a>
