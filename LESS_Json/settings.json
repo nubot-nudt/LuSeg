@@ -1,0 +1,93 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode": "Car",
+  "ViewMode": "FlyWithMe",
+  "ClockSpeed": 1.0,
+  "Vehicles": {
+    "drone_1": {
+      "VehicleType": "PhysXCar",
+      "AutoCreate": true,
+      "Sensors": {
+        "Imu" : {
+         "SensorType": 2,
+          "Enabled": true,
+          "AngularRandomWalk": 8.7266462e-5,
+          "GyroBiasStabilityTau": 500,
+          "GyroBiasStability": 9.9735023e-7,
+          "VelocityRandomWalk": 0.002353596 ,
+          "AccelBiasStabilityTau": 800,
+          "AccelBiasStability": 1.2481827e-5
+        },
+	"LidarCustom": {
+          "SensorType": 6,
+          "Range": 100,
+          "Enabled": true,
+          "NumberOfChannels": 64,
+          "PointsPerSecond": 576000,
+          "RotationsPerSecond": 10,
+          "VerticalFOVUpper": 15,
+          "VerticalFOVLower": -15,
+          "HorizontalFOVStart": -180,
+          "HorizontalFOVEnd": 180,
+          "X": 0, "Y": 0, "Z": -1,
+          "DrawDebugPoints": false,
+          "Pitch":0, "Roll": 0, "Yaw": 0,
+          "DataFrame": "SensorLocalFrame"
+        }
+      },        
+      "Cameras": {
+        "front_center_custom": {
+          "CaptureSettings": [
+            {
+              "PublishToRos": 1,
+              "ImageType": 0,
+              "Width": 640,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.0
+            },
+            {
+              "PublishToRos": 1,
+              "ImageType": 1,
+              "Width": 640,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.0
+            },
+            {
+              "PublishToRos": 1,
+              "ImageType": 5,
+              "Width": 640,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.0
+            }
+          ],
+          "X": 1, "Y": 0, "Z": -1.5,
+          "Pitch": 0, "Roll": 0, "Yaw": 0
+        }
+
+      },
+      "X": 0, "Y": 0, "Z": 0,
+      "Pitch": 0, "Roll": 0, "Yaw": 0
+    }
+  },
+  
+  
+
+ "Recording": {
+    "RecordInterval": 0.1,
+    "Cameras": [
+        { "CameraName": "front_center_custom", "ImageType": 0, "PixelsAsFloat": false, "Compress": true },
+        { "CameraName": "front_center_custom", "ImageType": 1, "PixelsAsFloat": true, "Compress": true },
+        { "CameraName": "front_center_custom", "ImageType": 5, "PixelsAsFloat": false, "Compress": true }
+    ]
+  },
+  "SubWindows": [
+    {"WindowID": 0, "ImageType": 0, "CameraName": "front_center_custom", "Visible": false},
+    {"WindowID": 1, "ImageType": 3, "CameraName": "front_center_custom", "Visible": false},
+    {"WindowID": 2, "ImageType": 5, "CameraName": "front_center_custom", "Visible": false}
+  ]
+}
+
