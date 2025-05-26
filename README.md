@@ -3,9 +3,24 @@
 # LuSeg: Efficient Negative and Positive Obstacles Segmentation via Contrast-Driven Multi-Modal Feature Fusion on the Lunar
 
 </div>
-
+<p align="center">
+  <a href="https://github.com/Shuaifeng-Jiao">Shuaifeng Jiao</a>,
+  <a href="https://ieeexplore.ieee.org/author/37085664722">Zhiwen Zeng</a>,
+  <a href="https://github.com/WangYushan9264">Zhuoqun Su</a>,
+  <a href="https://github.com/Chen-Xieyuanli">Xieyuanli Chen</a>
+   Zongtan Zhou<sup>*</sup>,
+  <a href="https://scholar.google.com.hk/citations?hl=en&user=cp-6u7wAAAAJ">Huimin Lu</a>
+ 
+  
+</p>
 
 <p align="center">
+  <span style="display: inline-block;">
+    <a href="https://arxiv.org/pdf/2503.11409" target='_blank'>
+      <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-slategray">
+    </a>
+  </span>
+  
   <span style="display: inline-block;">
     <a href="https://drive.google.com/drive/folders/17qlztnZj_POkljKoBVu3Qccu09rBvYwT?usp=sharing" target='_blank'>
       <img src="https://img.shields.io/badge/LESS-%F0%9F%9B%B0%EF%B8%8F-lightyellow">
@@ -31,7 +46,7 @@
 ## 🔥News:
 
 - [2025-03] Code released.
-- [2025-02] Submitted IROS 2025.
+- [2025-02] Submitted to IROS 2025.
 
 # 1. 🛰️Introduction
 This repository introduces the Lunar Exploration Simulator System (LESS), a lunar surface simulation system, alongside the LunarSeg dataset, which supplies RGB-D data for the segmentation of lunar obstacles, 
@@ -43,9 +58,22 @@ Our accompanying video is available at **[Demo](https://1drv.ms/v/c/9fa243fc9d63
   <img src="./assets/cover.jpg" alt="Alt text" width="600" height="350">
 </p>
 
+## Citation
+
+Please cite the corresponding paper:
+```bibtex
+@article{jiao2024luseg,
+  title={LuSeg: Efficient Negative and Positive Obstacles Segmentation via Contrast-Driven Multi-Modal Feature Fusion on the Lunar},
+  author={Shuaifeng Jiao, Zhiwen Zeng, Zhuoqun Su, Xieyuanli Chen, Zongtan Zhou, Huimin Lu},
+  journal={arXiv preprint arXiv:2503.11409},
+  year={2025}
+}
+```
+
+
 # 2. 🇨🇳Lunar Exploration Simulation System (LESS)
 ## 2.1 The Overall of Lunar Exploration Simulator System 
-The LESS system integrates a high-fidelity lunar terrain model, a customizable rover platform, and a multi-modal sensor suite, while also supporting the Robot Operating System (ROS) to enable realistic data generation and the validation of autonomous perception algorithms for the rover.ESS provides a scalable platform for developing and validating perception algorithms in extraterrestrial environments. This open-source framework is designed for high extensibility, allowing researchers to integrate additional sensors or customize terrain models according to the specific requirements of their applications.
+The LESS system integrates a high-fidelity lunar terrain model, a customizable rover platform, and a multi-modal sensor suite, while also supporting the Robot Operating System (ROS) to enable realistic data generation and the validation of autonomous perception algorithms for the rover.LESS provides a scalable platform for developing and validating perception algorithms in extraterrestrial environments. This open-source framework is designed for high extensibility, allowing researchers to integrate additional sensors or customize terrain models according to the specific requirements of their applications.
 <p align="center">
   <img src="./assets/LESS.jpg" alt="Alt text" width="600" height="350">
 </p>
