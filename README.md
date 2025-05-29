@@ -124,7 +124,7 @@ python train_TS.py --data_dir /your/path/to/LunarSeg/ --batch_size 4 --gpu_ids 0
 ### Evaluation
 You can evaluate the LuSeg model on the LunarSeg dataset by running the following command:
 ```bash
-python run_demo_lunar.py --data_dir /your/path/to/LunarSeg/test/ --batch_size 2 --gpu_ids 0 --rgb_dir /your/path/to/LunarSeg/StageI/trained_rgb/weight/ --model_dir /your/path/to/LunarSeg/StageII/trained_ts/weight/
+python run_demo_lunar.py --data_dir /your/path/to/LunarSeg/test/ --batch_size 2 --gpu_ids 0 --model_dir /your/path/to/LunarSeg/StageII/trained_ts/weight/
 ```
 
 # Acknowledgement
