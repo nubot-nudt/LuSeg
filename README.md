@@ -44,7 +44,7 @@
 
 
 ## 🔥News:
-
+- [2025-06] Luseg is accepted to IROS 2025.
 - [2025-03] Code released.
 - [2025-02] Submitted to IROS 2025.
 
