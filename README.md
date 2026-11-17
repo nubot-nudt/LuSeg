@@ -103,7 +103,8 @@ to our proposed Contrast-Driven Fusion Module (CDFM). The final output of Stage 
 ## 3.2 Dataset
 The **LunarSeg** dataset is a dataset of lunar obstacles, including both positive and negative instances. 
 The dataset is collected using the LESS system and is available
-for download at [Google Drive](https://drive.google.com/drive/folders/1u5eHiEPSuPZm1nmjdD4iixaATTorBbI8?usp=sharing).
+for download at [Google Drive](https://drive.google.com/drive/folders/1u5eHiEPSuPZm1nmjdD4iixaATTorBbI8?usp=sharing) or [Baidu Netdisk](
+ https://pan.baidu.com/s/1Y6vg3bDJKu5LcoDUlv9dOw?pwd=hdwv) pwd: hdwv
 
 ## 3.3 Pre-trained weights
 The pre-trained weights of LuSeg can be downloaded from [here](https://drive.google.com/drive/folders/1vi8G7TvnZ6snw-Pb7n-0XKohm6wvow9_?usp=sharing).
